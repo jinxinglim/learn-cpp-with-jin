@@ -64,17 +64,17 @@ I am using [VSCode](https://code.visualstudio.com/) so I deviated from the instr
 provided in the video.
 3. macOS still requires Xcode Command Line Tools for Clang (the default C++ compiler), which
 means we still need to run the following commands to install it:
-```
-xcode-select --install
-sudo xcode-select --reset
-clang++ --version // to verify installation
-```
+    ```
+    xcode-select --install
+    sudo xcode-select --reset
+    clang++ --version // to verify installation
+    ```
 4. I prefer to use Terminal to provide command to compile instead of relying
 the IDE. The commands that I ran on my Terminal are as follows:
-```
-clang++ main.cpp -o main
-./main
-```
+    ```
+    clang++ main.cpp -o main
+    ./main
+    ```
 
 ### C. How to set up C++ on Linux (WIP)
 
