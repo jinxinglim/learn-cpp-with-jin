@@ -12,11 +12,16 @@ Note that all learning materials originated from [The Cherno](https://www.youtub
 This repository is only meant for keeping track of my progress while learning C++.
 I am making this repository public in case the key takeaways would be useful for anyone.
 
+---
 ## 0. Welcome to C++
 
-#### Youtube video [link](https://youtu.be/18c3MTX0PK0?si=4J4UOj0a0ZhqtodN)
+#### Youtube video
 
-#### Code link (none for this lesson)
+- https://youtu.be/18c3MTX0PK0?si=4J4UOj0a0ZhqtodN
+
+#### Code
+
+- None for this lesson
 
 #### Key takeaways
 
@@ -24,22 +29,33 @@ I am making this repository public in case the key takeaways would be useful for
 2. As different machines (e.g., Windows, Macs, Linux, etc) use different machine code, it is important to choose the right compiler to compile your C++ source code to the appropriate machine code.
 3. Other languages such as C#, Java, etc works differenly as they run on virtual machines (VMs) that compile the source code to an intermediate language first. When the application runs the program in the VM, it will then get compiled into apprpriate machine code.
 
+---
 ## 1. How to set up C++
 
 ### A. How to set up C++ on Windows
 
-#### Youtube video [link](https://youtu.be/1OsGXuNA5cc?si=vtPBjgUd_NSpXQfK)
+#### Youtube video
 
-#### Code link (none for this lesson)
+- https://youtu.be/1OsGXuNA5cc?si=vtPBjgUd_NSpXQfK
+
+#### Code link
+
+- None for this lesson
 
 #### Key takeaways
 
-1. I am skipping this as I am not using Windows.
+- I am skipping this as I am not using Windows.
 
 ### B. How to set up C++ on Mac
 
-#### Youtube video [link](https://youtu.be/1E_kBSka_ec?si=TpdggvNOSxSzORK8)
-#### Code [link](src/1b-how-to-set-up-cpp-on-mac/)
+#### Youtube video
+
+- https://youtu.be/1E_kBSka_ec?si=TpdggvNOSxSzORK8
+
+#### Code
+
+- [src/1b-how-to-set-up-cpp-on-mac/](src/1b-how-to-set-up-cpp-on-mac/)
+
 #### Key takeaways
 
 1. macOS comes with built-in C++ compiler so installation needed.
@@ -62,7 +78,9 @@ clang++ main.cpp -o main
 
 ### C. How to set up C++ on Linux (WIP)
 
-#### Youtube video [link](https://youtu.be/LKLuvoY6U0I?si=3LGGYCIOs6ao0ROE)
+#### Youtube video 
+
+- https://youtu.be/LKLuvoY6U0I?si=3LGGYCIOs6ao0ROE
 
 #### Code link
 
