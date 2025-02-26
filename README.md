@@ -142,38 +142,38 @@ Note that I deviated from the video on the following points:
 
 #### Key takeaways
 
-- Anything that begin/prefix with `#` is a preprocess statement. These statements will be preprocessed
+1. Anything that begin/prefix with `#` is a preprocess statement. These statements will be preprocessed
 before the code is compiled.
 
-- For example, `#include <iostream>` is a preprocess statement that tells the compiler to include the
+2. For example, `#include <iostream>` is a preprocess statement that tells the compiler to include the
 `iostream` file into the current file. This is like copy and pasting the contents of the "include" file 
 into the current file.
 
-- When we run our compiled application, the computer will execute the code that we have written in order 
+3. When we run our compiled application, the computer will execute the code that we have written in order 
 line by line (generally). So the positions of where the preprocess statements are placed may matter in 
 some cases.
 
-- The `main()` function is a special function in C++ where it is the entry point of the application. 
+4. The `main()` function is a special function in C++ where it is the entry point of the application. 
 When the application is run, the computer will start executing the code from the `main()` function.
 The return type of the `main()` function is `int` and it returns an integer value to the operating system
 to indicate the status of the application. A return value of `0` indicates that the application ran
 successfully.
 
-- `<<` is the insertion operator in C++ that is used to insert data into the output stream. In the
+5. `<<` is the insertion operator in C++ that is used to insert data into the output stream. In the
 example, `std::cout << "Hello, World!" << std::endl;`, the `std::cout` is the output stream object
 that is used to output data to the console. The `<<` operator is used to insert the string "Hello, World!"
 into the output stream. The `std::endl` is used to insert a newline character into the output stream.
 
-- There are several important settings/flags that we need to take note of when compiling our C++ code.
+6. There are several important settings/flags that we need to take note of when compiling our C++ code.
 For example:
     - Solution configuration: Set of rules that the compiler will use to compile the code.
     - Solution platform: The platform that the code will be compiled for, e.g., x86, Android, etc.
 
-- Usually every `.cpp` will get compiled (which can be instructed by the `CMakeLists.txt` file) but not
+7. Usually every `.cpp` will get compiled (which can be instructed by the `CMakeLists.txt` file) but not
 `.hpp` files. The `.hpp` files are usually get included in the `.cpp` files and that is where they get
 compiled.
 
-- Every `.cpp` files will get compiled into an object file (`.o` file) individually and then the object 
+8. Every `.cpp` files will get compiled into an object file (`.o` file) individually and then the object 
 files will get linked together by the linker to create the final executable file. For example, if you 
 build the project for this lesson, you can find the object files in the `build/CMakeFiles/HelloWorld.dir/src/` directory.
 
