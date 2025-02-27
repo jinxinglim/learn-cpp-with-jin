@@ -177,4 +177,23 @@ compiled.
 files will get linked together by the linker to create the final executable file. For example, if you 
 build the project for this lesson, you can find the object files in the `build/CMakeFiles/HelloWorld.dir/src/` directory.
 
-#### 👷 WIP 👷 - Stopped at 12:15 of the video
+9. In many cases, we will need to have different functions defined in different files. As you see in the project 
+for this lesson, the `main.cpp` contains the `main()` function, which calls the `Log(const char* message)` function 
+that is defined in the `Log.cpp` file. We can see that there is no `#include "log.cpp"` in the `main.cpp` file but 
+the `main` function can still call the `Log` function. This is because the `CMakeLists.txt` file tells the compiler 
+to compile the `.cpp` files within the `src/` directory and link them up together to create the final executable file.
+
+10. Note that it is important to make declarations of the functions that are defined in other files so that we can 
+use them. For example, in the `main.cpp` file, we declare the `Log` function near the top of the file. The difference
+between a declaration and a definition is that:
+- a **declaration**, which only contains the function signature without its body/implementation, 
+tells the compiler that the function exists, whereas
+- a **definition** contains the function signature and its body/implementation.
+
+11. When declaring the function in the `.cpp` file, the compiler basically trusts us that the function is defined 
+somewhere else. If the function is not defined, the compiler will throw an error when it tries to link the object
+files together. 
+
+12. Each `.cpp` file will get compiled into individual `.o` object file. The object files will then get linked together
+by the linker to create the final executable file. The linker will also link the standard library to the executable file.
+
