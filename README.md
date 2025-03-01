@@ -197,3 +197,34 @@ files together.
 12. Each `.cpp` file will get compiled into individual `.o` object file. The object files will then get linked together
 by the linker to create the final executable file. The linker will also link the standard library to the executable file.
 
+---
+## 3. How the C++ compiler works
+
+#### Youtube video
+
+- https://youtu.be/3tIqpEmWMLI?si=j-0lV-xGkdleuwyz 
+
+#### Code
+
+- [src/3-how-the-cpp-compiler-works](src/3-how-the-cpp-compiler-works)
+
+#### Key takeaways
+
+1. Brief summary of what the compiler does:
+    i. Preprocess our code, i.e., preprocess all the preprocess statements and get evaluated.
+    ii. Tokenizing, parsing and sorting out our textual C++ code into a format that our compiler can understand follow next.
+    This results in a representation that is called an abstract syntax tree (AST) being created.
+    iii. This is then get converted into constant data or instructions, which are actual machine code
+    that our CPU can execute.
+
+2. C++ does not care and recognize about files. These C++ files are just translation units. **Files are
+not something that "exists" and has no meaning in C++**, unlike programming language like Java where file names hierachy of
+the files matters. 
+
+3. Even though there is convention that `.cpp` files are C++ files, `.h` are header files, etc, we can
+always tell the compiler on what files to compile.
+
+4. All the files that are going to be compiled, in this case the `.cpp` files, will be compiled as 
+translation units and result in object files.
+
+#### 👷‍♂️ WIP - Stops at 5m 👷‍♂️
