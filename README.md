@@ -25,3 +25,5 @@ I am making this repository public in case the key takeaways would be useful for
 ## 2. [How C++ Works](src/2-how-cpp-works)
 
 ## 3. [How the C++ compiler works](src/3-how-the-cpp-compiler-works)
+
+## 4. [How the C++ linker works](src/4-how-the-cpp-linker-works)
