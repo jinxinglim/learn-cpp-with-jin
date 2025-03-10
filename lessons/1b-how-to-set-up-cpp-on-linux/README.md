@@ -1,4 +1,4 @@
-### 1C. How to set up C++ on Linux
+### 1B. How to set up C++ on Linux
 
 #### Youtube video 
 
