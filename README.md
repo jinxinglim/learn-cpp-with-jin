@@ -33,3 +33,5 @@ To fully utilize this repository, I would suggest the following:
 ## 4. [How the C++ linker works](src/4-how-the-cpp-linker-works)
 
 ## 5. [Variables in C++](src/5-variables-in-cpp)
+
+## 6. [Functions in C++](src/6-functions-in-cpp)
