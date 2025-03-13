@@ -1,4 +1,4 @@
-### 1A. How to set up C++ on Mac
+### 1A. How to Setup C++ on Mac
 
 #### Youtube video
 

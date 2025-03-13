@@ -1,4 +1,4 @@
-## 3. How the C++ compiler works
+## 3. How the C++ Compiler Works
 
 #### Youtube video
 

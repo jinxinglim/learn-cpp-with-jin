@@ -20,18 +20,20 @@ To fully utilize this repository, I would suggest the following:
 
 ## 0. [Welcome to C++](src/0-welcome-to-cpp)
 
-## 1. How to set up C++
+## 1. How to Setup C++
 
-### A. [How to set up C++ on Mac](src/1b-how-to-set-up-cpp-on-mac)
+### A. [How to Setup C++ on Mac](src/1b-how-to-setup-cpp-on-mac)
 
-### B. [How to set up C++ on Linux](src/1c-how-to-set-up-cpp-on-linux)
+### B. [How to Setup C++ on Linux](src/1c-how-to-setup-cpp-on-linux)
 
 ## 2. [How C++ Works](src/2-how-cpp-works)
 
-## 3. [How the C++ compiler works](src/3-how-the-cpp-compiler-works)
+## 3. [How the C++ Compiler Works](src/3-how-the-cpp-compiler-works)
 
-## 4. [How the C++ linker works](src/4-how-the-cpp-linker-works)
+## 4. [How the C++ Linker Works](src/4-how-the-cpp-linker-works)
 
 ## 5. [Variables in C++](src/5-variables-in-cpp)
 
 ## 6. [Functions in C++](src/6-functions-in-cpp)
+
+## 7. [C++ Header Files](src/7-cpp-header-files)
