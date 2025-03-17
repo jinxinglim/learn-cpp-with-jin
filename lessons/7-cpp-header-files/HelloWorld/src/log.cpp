@@ -1,4 +1,5 @@
 #include <iostream>
+#include "common.h"
 #include "log.h"
 
 void Log(const char* message) {
