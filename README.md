@@ -18,24 +18,24 @@ To fully utilize this repository, I would suggest the following:
 2. Write the code that is used in the video.
 3. After the video is over, read the key takeaways and compare them with your understanding.
 
-## 0. [Welcome to C++](src/0-welcome-to-cpp)
+## 0. [Welcome to C++](lessons/0-welcome-to-cpp)
 
 ## 1. How to Setup C++
 
-### A. [How to Setup C++ on Mac](src/1b-how-to-setup-cpp-on-mac)
+### A. [How to Setup C++ on Mac](lessons/1b-how-to-setup-cpp-on-mac)
 
-### B. [How to Setup C++ on Linux](src/1c-how-to-setup-cpp-on-linux)
+### B. [How to Setup C++ on Linux](lessons/1c-how-to-setup-cpp-on-linux)
 
-## 2. [How C++ Works](src/2-how-cpp-works)
+## 2. [How C++ Works](lessons/2-how-cpp-works)
 
-## 3. [How the C++ Compiler Works](src/3-how-the-cpp-compiler-works)
+## 3. [How the C++ Compiler Works](lessons/3-how-the-cpp-compiler-works)
 
-## 4. [How the C++ Linker Works](src/4-how-the-cpp-linker-works)
+## 4. [How the C++ Linker Works](lessons/4-how-the-cpp-linker-works)
 
-## 5. [Variables in C++](src/5-variables-in-cpp)
+## 5. [Variables in C++](lessons/5-variables-in-cpp)
 
-## 6. [Functions in C++](src/6-functions-in-cpp)
+## 6. [Functions in C++](lessons/6-functions-in-cpp)
 
-## 7. [C++ Header Files](src/7-cpp-header-files)
+## 7. [C++ Header Files](lessons/7-cpp-header-files)
 
-## 8. [Conditions and Branches in C++ (if statements)](src/8-conditions-and-branches-in-cpp)
+## 8. [Conditions and Branches in C++ (if statements)](lessons/8-conditions-and-branches-in-cpp)
