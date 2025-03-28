@@ -37,3 +37,5 @@ To fully utilize this repository, I would suggest the following:
 ## 6. [Functions in C++](src/6-functions-in-cpp)
 
 ## 7. [C++ Header Files](src/7-cpp-header-files)
+
+## 8. [Conditions and Branches in C++ (if statements)](src/8-conditions-and-branches-in-cpp)
