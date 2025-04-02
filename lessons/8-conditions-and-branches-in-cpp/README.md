@@ -41,4 +41,19 @@ the value of the variables. This is useful when we want to debug our code and se
 I would still recommend to follow his steps in the video to see how to use the Debug mode in VS Code as it provides better
 insights through the assembly code.
 
-👷👷👷 WIP - Stop at 10:05 👷👷👷
+7. Even though boolean values are stored as 1 and 0 in the memory, it occupies 1 byte of memory instead of 1 bit (as mentioned
+in one of the previous lessons). Because of that, the boolean condition in the `if` statement will be evaluated to true if the
+value is not 0 (i.e., can be 1, 123 or any non-zero value) and false if the value is 0.
+
+8. This comes especially helpful if we want to check if a pointer is `nullptr` or not. If the pointer is `nullptr`, it will be
+evaluated to false and if it is not `nullptr`, it will be evaluated to true.
+
+9. If the body of the `if` statement contains only one line of code, we can omit the curly braces `{}`. However, it is
+recommended to always use the curly braces to avoid any confusion and bugs in the code. Same applies to `else` statements.
+
+10. We can also use `else if` statements to check for multiple conditions. The `else if` statement will only be evaluated
+if the previous `if` statement is false. If the previous `if` statement is true, the `else if` statement will be skipped.
+It is important to make sure when to use `else if` and when to use multiple `if` statements. This is because `else if` will
+only be evaluated if the previous `if` statement is false. If we want to check for multiple conditions regardless of the
+previous conditions, we should use multiple `if` statements.
+
