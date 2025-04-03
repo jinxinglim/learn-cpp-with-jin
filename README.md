@@ -39,3 +39,5 @@ To fully utilize this repository, I would suggest the following:
 ## 7. [C++ Header Files](lessons/7-cpp-header-files)
 
 ## 8. [Conditions and Branches in C++ (if statements)](lessons/8-conditions-and-branches-in-cpp)
+
+## 9. [Loops in C++ (for loops, while loops)](lessons/9-loops-in-cpp)
